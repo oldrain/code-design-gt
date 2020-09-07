@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans>
+    <bean id="testA" class="app.factory.p3di.TestA">
+        <constructor-arg ref="testB"/>
+    </bean>
+
+    <bean id="testB" class="app.factory.p3di.TestB" scope="singleton" lazy-init="true">
+        <constructor-arg type="String" value="127.0.0.1"/>
+        <constructor-arg type="int" value="1234"/>
+    </bean>
+
+<!--    <bean id="rateLimiter" class="com.xzg.RateLimiter">-->
+<!--        <constructor-arg ref="redisCounter"/>-->
+<!--    </bean>-->
+
+<!--    <bean id="redisCounter" class="com.xzg.redisCounter" scope="singleton" lazy-init="true">-->
+<!--        <constructor-arg type="String" value="127.0.0.1"/>-->
+<!--        <constructor-arg type="int" value="1234"/>-->
+<!--    </bean>-->
+
+</beans>

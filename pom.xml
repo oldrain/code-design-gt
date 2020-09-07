@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <artifactId>code-design</artifactId>
+    <packaging>pom</packaging>
+    <groupId>com.wxappzone.code-design</groupId>
+    <version>1.0-SNAPSHOT</version>
+
+    <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+
+    <modules>
+        <module>c37-id-generator</module>
+        <module>c41-singleton</module>
+        <module>c44-factory</module>
+        <module>c46-builder</module>
+        <module>c47-prototype</module>
+        <module>c48-proxy</module>
+        <module>c49-bridge</module>
+        <module>c50-decorate</module>
+        <module>c51-adaptor</module>
+        <module>c53-composite</module>
+        <module>c54-flyweight</module>
+        <module>c56-observer</module>
+        <module>c58-template-method</module>
+        <module>c60-strategy</module>
+        <module>c62-chain-of-responsibility</module>
+        <module>c63-finite-state</module>
+        <module>c68-visitor</module>
+        <module>c70-memento</module>
+        <module>c71-command</module>
+        <module>c72-interpreter</module>
+        <module>c73-mediator</module>
+        <module>c52-facade</module>
+        <module>c65-iterator</module>
+    </modules>
+
+</project>
